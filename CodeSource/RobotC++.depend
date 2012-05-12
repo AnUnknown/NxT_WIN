@@ -1,0 +1,238 @@
+# depslib dependency file v1.0
+1336814217 source:e:\supinfo\labo robotique\robotc++\adc_8591.cpp
+	"adc_8591.h"
+	<sstream>
+	<string>
+
+1336814217 e:\supinfo\labo robotique\robotc++\adc_8591.h
+	<iostream>
+	<string>
+	"connection.h"
+	"I2C.h"
+
+1336814217 e:\supinfo\labo robotique\robotc++\connection.h
+	<string>
+
+1336814217 e:\supinfo\labo robotique\robotc++\i2c.h
+	"Sensor.h"
+	"connection.h"
+
+1336814217 e:\supinfo\labo robotique\robotc++\sensor.h
+	"connection.h"
+	<string.h>
+
+1336814217 source:e:\supinfo\labo robotique\robotc++\bluetooth.cpp
+	"bluetooth.h"
+	<stdlib.h>
+	"error.h"
+
+1336814217 e:\supinfo\labo robotique\robotc++\bluetooth.h
+	<windows.h>
+	<iostream>
+	<string>
+	"connection.h"
+
+1336814217 e:\supinfo\labo robotique\robotc++\error.h
+	<exception>
+	<iostream>
+	<string>
+	<sstream>
+
+1336814217 source:e:\supinfo\labo robotique\robotc++\brick.cpp
+	"brick.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string>
+	<windows.h>
+	"error.h"
+
+1336814218 e:\supinfo\labo robotique\robotc++\brick.h
+	<string>
+	"connection.h"
+
+1336814218 source:e:\supinfo\labo robotique\robotc++\color.cpp
+	"color.h"
+	<windows.h>
+	<sstream>
+	<string>
+
+1336814218 e:\supinfo\labo robotique\robotc++\color.h
+	<iostream>
+	<string>
+	"connection.h"
+	"I2C.h"
+
+1336814218 source:e:\supinfo\labo robotique\robotc++\compass.cpp
+	"compass.h"
+	"error.h"
+	<windows.h>
+
+1336814218 e:\supinfo\labo robotique\robotc++\compass.h
+	"i2c.h"
+	"connection.h"
+
+1336815342 source:e:\supinfo\labo robotique\robotc++\error.cpp
+	"error.h"
+	<sstream>
+	<string>
+
+1336814217 source:e:\supinfo\labo robotique\robotc++\filesystem.cpp
+	"filesystem.h"
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<string>
+	<windows.h>
+	"error.h"
+	"brick.h"
+
+1336814268 e:\supinfo\labo robotique\robotc++\filesystem.h
+	"connection.h"
+
+1336814217 source:e:\supinfo\labo robotique\robotc++\i2c.cpp
+	"i2c.h"
+	"error.h"
+	<iostream>
+	<stdio.h>
+	<time.h>
+	<string>
+	<stdlib.h>
+	<windows.h>
+
+1336814217 source:e:\supinfo\labo robotique\robotc++\io_8574.cpp
+	"io_8574.h"
+	<sstream>
+	<string>
+
+1336814217 e:\supinfo\labo robotique\robotc++\io_8574.h
+	<iostream>
+	<string>
+	"I2C.h"
+	"connection.h"
+
+1336828074 source:e:\supinfo\labo robotique\robotc++\main.cpp
+	<cstdlib>
+	<iostream>
+	<string>
+	<conio.h>
+	"nxt.h"
+
+1336814217 e:\supinfo\labo robotique\robotc++\nxt.h
+	<stdio.h>
+	<string>
+	<iostream>
+	"bluetooth.h"
+	"network.h"
+	"error.h"
+	"motor.h"
+	"brick.h"
+	"filesystem.h"
+	"light.h"
+	"touch.h"
+	"rotation.h"
+	"sound.h"
+	"rcx_light.h"
+	"gyro.h"
+	"temperature.h"
+	"sonar.h"
+	"compass.h"
+	"color.h"
+	"IO_8574.h"
+	"adc_8591.h"
+	"tilt.h"
+
+1336814217 e:\supinfo\labo robotique\robotc++\network.h
+	<string>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<stdio.h>
+	<iostream>
+	<string>
+	"connection.h"
+
+1336822368 e:\supinfo\labo robotique\robotc++\motor.h
+	<iostream>
+	<string>
+	"connection.h"
+
+1336814217 e:\supinfo\labo robotique\robotc++\light.h
+	"Sensor.h"
+	"connection.h"
+
+1336814217 e:\supinfo\labo robotique\robotc++\touch.h
+	"Sensor.h"
+	"connection.h"
+
+1336814217 e:\supinfo\labo robotique\robotc++\rotation.h
+	"Sensor.h"
+	"connection.h"
+
+1336814289 e:\supinfo\labo robotique\robotc++\sound.h
+	"Sensor.h"
+	"connection.h"
+
+1336814298 e:\supinfo\labo robotique\robotc++\rcx_light.h
+	"Sensor.h"
+	"connection.h"
+
+1336814217 e:\supinfo\labo robotique\robotc++\gyro.h
+	"Sensor.h"
+	"connection.h"
+
+1336814217 e:\supinfo\labo robotique\robotc++\temperature.h
+	"Sensor.h"
+	"connection.h"
+
+1336814217 e:\supinfo\labo robotique\robotc++\sonar.h
+	"i2c.h"
+	"windows.h"
+	"connection.h"
+
+1336814217 e:\supinfo\labo robotique\robotc++\tilt.h
+	<iostream>
+	<string>
+	"connection.h"
+	"I2C.h"
+
+1336823386 source:e:\supinfo\labo robotique\robotc++\motor.cpp
+	<iostream>
+	"motor.h"
+	<stdio.h>
+	<time.h>
+	<string>
+	<stdlib.h>
+	"error.h"
+
+1336814217 source:e:\supinfo\labo robotique\robotc++\network.cpp
+	<winsock2.h>
+	<winsock.h>
+	<ws2tcpip.h>
+	<stdio.h>
+	<windows.h>
+	<iostream>
+	"network.h"
+	<stdlib.h>
+	"error.h"
+
+1336814217 source:e:\supinfo\labo robotique\robotc++\sensor.cpp
+	"sensor.h"
+	"error.h"
+	<iostream>
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	<windows.h>
+	<sstream>
+	<string>
+
+1336814217 source:e:\supinfo\labo robotique\robotc++\sonar.cpp
+	"sonar.h"
+	"error.h"
+
+1336814217 source:e:\supinfo\labo robotique\robotc++\tilt.cpp
+	"tilt.h"
+	<windows.h>
+	<sstream>
+	<string>
+

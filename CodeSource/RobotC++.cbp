@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RobotC++" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\RobotC++" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\RobotC++" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libwsock32.a" />
+		</Linker>
+		<Unit filename="RobotC++.cbp" />
+		<Unit filename="adc_8591.cpp" />
+		<Unit filename="adc_8591.h" />
+		<Unit filename="bluetooth.cpp" />
+		<Unit filename="bluetooth.h" />
+		<Unit filename="brick.cpp" />
+		<Unit filename="brick.h" />
+		<Unit filename="color.cpp" />
+		<Unit filename="color.h" />
+		<Unit filename="compass.cpp" />
+		<Unit filename="compass.h" />
+		<Unit filename="connection.h" />
+		<Unit filename="error.cpp" />
+		<Unit filename="error.h" />
+		<Unit filename="filesystem.cpp" />
+		<Unit filename="filesystem.h" />
+		<Unit filename="gyro.h" />
+		<Unit filename="i2c.cpp" />
+		<Unit filename="i2c.h" />
+		<Unit filename="io_8574.cpp" />
+		<Unit filename="io_8574.h" />
+		<Unit filename="light.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="motor.cpp" />
+		<Unit filename="motor.h" />
+		<Unit filename="network.cpp" />
+		<Unit filename="network.h" />
+		<Unit filename="nxt.h" />
+		<Unit filename="rcx_light.h" />
+		<Unit filename="rotation.h" />
+		<Unit filename="sensor.cpp" />
+		<Unit filename="sensor.h" />
+		<Unit filename="sonar.cpp" />
+		<Unit filename="sonar.h" />
+		<Unit filename="sound.h" />
+		<Unit filename="temperature.h" />
+		<Unit filename="tilt.cpp" />
+		<Unit filename="tilt.h" />
+		<Unit filename="touch.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

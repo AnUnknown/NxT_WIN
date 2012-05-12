@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="filesystem.h" open="1" top="0" tabpos="2">
+		<Cursor position="5668" topLine="177" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="372" topLine="0" />
+	</File>
+	<File name="network.cpp" open="1" top="1" tabpos="5">
+		<Cursor position="1029" topLine="13" />
+	</File>
+	<File name="rcx_light.h" open="1" top="0" tabpos="4">
+		<Cursor position="537" topLine="1" />
+	</File>
+	<File name="sound.h" open="1" top="0" tabpos="3">
+		<Cursor position="992" topLine="27" />
+	</File>
+</CodeBlocks_layout_file>
