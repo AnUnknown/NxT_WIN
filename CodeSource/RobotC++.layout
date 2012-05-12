@@ -1,19 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="filesystem.h" open="1" top="0" tabpos="2">
+	<File name="bluetooth.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1205" topLine="45" />
+	</File>
+	<File name="brick.h" open="0" top="0" tabpos="0">
+		<Cursor position="78" topLine="18" />
+	</File>
+	<File name="error.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1153" topLine="25" />
+	</File>
+	<File name="error.h" open="0" top="0" tabpos="0">
+		<Cursor position="4574" topLine="192" />
+	</File>
+	<File name="filesystem.h" open="0" top="0" tabpos="2">
 		<Cursor position="5668" topLine="177" />
 	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="1">
-		<Cursor position="372" topLine="0" />
+	<File name="i2c.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1934" topLine="84" />
 	</File>
-	<File name="network.cpp" open="1" top="1" tabpos="5">
+	<File name="main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="2486" topLine="58" />
+	</File>
+	<File name="motor.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="406" topLine="142" />
+	</File>
+	<File name="motor.h" open="1" top="0" tabpos="3">
+		<Cursor position="2966" topLine="117" />
+	</File>
+	<File name="network.cpp" open="0" top="0" tabpos="5">
 		<Cursor position="1029" topLine="13" />
 	</File>
-	<File name="rcx_light.h" open="1" top="0" tabpos="4">
+	<File name="rcx_light.h" open="0" top="0" tabpos="4">
 		<Cursor position="537" topLine="1" />
 	</File>
-	<File name="sound.h" open="1" top="0" tabpos="3">
+	<File name="sensor.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="403" topLine="0" />
+	</File>
+	<File name="sensor.h" open="1" top="0" tabpos="6">
+		<Cursor position="6408" topLine="301" />
+	</File>
+	<File name="sound.h" open="0" top="0" tabpos="3">
 		<Cursor position="992" topLine="27" />
+	</File>
+	<File name="test.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="643" topLine="8" />
+	</File>
+	<File name="test.h" open="1" top="0" tabpos="8">
+		<Cursor position="68" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>

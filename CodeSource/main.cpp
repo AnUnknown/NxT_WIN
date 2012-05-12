@@ -3,6 +3,7 @@
 #include <string>
 #include <conio.h>
 #include "nxt.h"
+#include "test.h"
 using namespace std;
 
 //set up the NXT
@@ -54,19 +55,30 @@ int main()
         cout << "middle : " << middle << endl;
         motorB->move_to(40,middle,6);
         Sleep(2);*/
+        bool blocked = false;
        while(!_kbhit())
              {
-                 if((sensor1->read()==0&&sensor2->read()==0)&&(sensorSon->read()>=40))
+                 bool isOnWall = (sensorSon->read()<=40);
+                 if((sensor1->read()==0&&sensor2->read()==0)&&!isOnWall&&!blocked)
                  {
-                    motorC->on(100); //make motor A turn backwards with speed 85
-                    motorA->on(100); //make motor A turn backwards with speed 85$
-                  //  cout << sensorSon->print() << endl; //returns a string can be used on all sensor types
+
+                    forward( motorA, motorC );
+                    //  cout << sensorSon->print() << endl; //returns a string can be used on all sensor types
                     cout << sensorSon->read() << endl;
                  }else{
-                    motorC->stop(true);
-                    motorA->stop(true);
+                    stop( motorA, motorC );
                     cout << sensorSon->read() << endl;
+                    if(isOnWall){
+                        cout << "reculer" << endl;
+                        blocked = true;
+                        backward( motorA, motorC, 2);
+                        stop(motorA, motorC);
+                        cout << sensorSon->read() << endl;
+                        return 1;
+                    }
                  }
+
+
    //   sensor1->read() == 1
       //cout << sensor1->print() << endl;
             }

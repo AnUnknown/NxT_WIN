@@ -35,6 +35,7 @@
 		<Linker>
 			<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libwsock32.a" />
 		</Linker>
+		<Unit filename="C:\Users\Anis\Desktop\test.cpp" />
 		<Unit filename="RobotC++.cbp" />
 		<Unit filename="adc_8591.cpp" />
 		<Unit filename="adc_8591.h" />
@@ -71,6 +72,8 @@
 		<Unit filename="sonar.h" />
 		<Unit filename="sound.h" />
 		<Unit filename="temperature.h" />
+		<Unit filename="test.cpp" />
+		<Unit filename="test.h" />
 		<Unit filename="tilt.cpp" />
 		<Unit filename="tilt.h" />
 		<Unit filename="touch.h" />

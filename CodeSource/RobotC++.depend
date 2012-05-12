@@ -111,12 +111,13 @@
 	"I2C.h"
 	"connection.h"
 
-1336828074 source:e:\supinfo\labo robotique\robotc++\main.cpp
+1336834426 source:e:\supinfo\labo robotique\robotc++\main.cpp
 	<cstdlib>
 	<iostream>
 	<string>
 	<conio.h>
 	"nxt.h"
+	"test.h"
 
 1336814217 e:\supinfo\labo robotique\robotc++\nxt.h
 	<stdio.h>
@@ -235,4 +236,10 @@
 	<windows.h>
 	<sstream>
 	<string>
+
+1336834275 e:\supinfo\labo robotique\robotc++\test.h
+	"Motor.h"
+
+1336834305 source:e:\supinfo\labo robotique\robotc++\test.cpp
+	"test.h"
 
